@@ -1,10 +1,9 @@
-📘 Question Paper Generator (Python Project)
+# 📘 Question Paper Generator (Python Project)
 
 A professional and interactive **Question Paper Generator** built using Python.  
 This program generates **5 random questions** based on the selected **subject** and **question type**, using a structured CSV question bank.
 
-
-✨ Features
+## ✨ Features
 
 - ✔ Supports **4 subjects**:
   - DSA  
