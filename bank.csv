@@ -1,0 +1,64 @@
+id,subject,unit,topic,difficulty,blooms,marks,type,question,options,answer
+
+
+DSA_M1,DSA,1,Basics,E,Remember,1,MCQ,Which keyword defines a function in Python?,"[""def"",""func"",""define"",""lambda""]",def
+DSA_M2,DSA,1,Arrays,E,Remember,1,MCQ,Which index does a Python list start with?,"[""1"",""0"",""-1"",""None""]",0
+DSA_M3,DSA,1,Searching,E,Remember,1,MCQ,Which search works on sorted arrays?,"[""Linear"",""Binary"",""DFS"",""BFS""]",Binary
+DSA_M4,DSA,2,Stacks,E,Remember,1,MCQ,Stack uses which principle?,"[""FIFO"",""LIFO"",""LILO"",""FILO""]",LIFO
+DSA_M5,DSA,2,Queues,E,Remember,1,MCQ,Queue follows which principle?,"[""LIFO"",""FIFO"",""Random"",""Stack""]",FIFO
+DSA_S1,DSA,2,Stacks,M,Understand,2,SA1,Define a stack with two applications.,,LIFO
+DSA_S2,DSA,2,Queues,M,Understand,2,SA1,Explain the difference between queue and deque.,,Explanation
+DSA_S3,DSA,3,Linked List,M,Understand,2,SA1,Define linked list.,,Definition
+DSA_S4,DSA,3,Trees,M,Apply,2,SA1,What is a binary tree?,,Definition
+DSA_S5,DSA,3,Heaps,M,Apply,2,SA1,Define max heap.,,Definition
+DSA_L1,DSA,4,Sorting,H,Analyze,10,LA,Explain merge sort with example.,,Explanation
+DSA_L2,DSA,4,Graphs,H,Analyze,10,LA,Explain BFS algorithm.,,Explanation
+DSA_L3,DSA,4,Graphs,H,Analyze,10,LA,Explain DFS algorithm.,,Explanation
+DSA_L4,DSA,5,Dynamic Programming,H,Create,10,LA,Explain dynamic programming using Fibonacci.,,Explanation
+DSA_L5,DSA,5,Trees,H,Analyze,10,LA,Explain AVL tree rotations.,,Explanation
+DB_M1,DBMS,1,SQL,E,Remember,1,MCQ,Which SQL clause filters rows?,"[""WHERE"",""GROUP BY"",""ORDER BY"",""HAVING""]",WHERE
+DB_M2,DBMS,1,ER,E,Remember,1,MCQ,ER stands for what?,"[""Entity Relationship"",""Entity Record"",""Extended Relation"",""None""]","Entity Relationship"
+DB_M3,DBMS,1,SQL,E,Remember,1,MCQ,Which command deletes table data but not structure?,"[""DROP"",""DELETE"",""ERASE"",""REMOVE""]",DELETE
+DB_M4,DBMS,2,Keys,E,Remember,1,MCQ,Which key uniquely identifies a row?,"[""Primary Key"",""Foreign Key"",""Candidate"",""Super Key""]","Primary Key"
+DB_M5,DBMS,2,Joins,E,Remember,1,MCQ,Which join gives matching rows?,"[""INNER"",""LEFT"",""RIGHT"",""FULL""]",INNER
+DB_S1,DBMS,2,ER,M,Understand,2,SA1,Define entity with example.,,Definition
+DB_S2,DBMS,2,ER,M,Understand,2,SA1,Define attribute.,,Definition
+DB_S3,DBMS,3,Normalization,M,Apply,2,SA1,What is normalization?,,Definition
+DB_S4,DBMS,3,Indexing,M,Apply,2,SA1,Why are indexes used?,,Explanation
+DB_S5,DBMS,4,Transactions,M,Apply,2,SA1,Define ACID properties.,,Definition
+DB_L1,DBMS,4,Transactions,H,Analyze,10,LA,Explain ACID properties with examples.,,Explanation
+DB_L2,DBMS,5,Concurrency,H,Analyze,10,LA,Explain locking in DBMS.,,Explanation
+DB_L3,DBMS,3,Normalization,H,Analyze,10,LA,Explain 1NF, 2NF, 3NF with examples.,,Explanation
+DB_L4,DBMS,5,Recovery,H,Analyze,10,LA,Explain log-based recovery.,,Explanation
+DB_L5,DBMS,3,SQL,H,Analyze,10,LA,Explain subqueries with examples.,,Explanation
+CN_M1,CN,1,OSI,E,Remember,1,MCQ,How many layers in OSI?,"[""5"",""6"",""7"",""8""]",7
+CN_M2,CN,1,Layers,E,Remember,1,MCQ,Which layer handles routing?,"[""Network"",""Data Link"",""Transport"",""Session""]",Network
+CN_M3,CN,3,TCP,E,Remember,1,MCQ,Which protocol is connection-oriented?,"[""TCP"",""UDP"",""ARP"",""ICMP""]",TCP
+CN_M4,CN,3,Transport,E,Remember,1,MCQ,Which field controls flow in TCP?,"[""Window Size"",""TTL"",""Checksum"",""Offset""]","Window Size"
+CN_M5,CN,4,IP,E,Remember,1,MCQ,What is the size of IPv4 address?,"[""32 bits"",""64 bits"",""128 bits"",""16 bits""]","32 bits"
+
+CN_S1,CN,2,Routing,M,Apply,2,SA1,Explain distance vector routing.,,Explanation
+CN_S2,CN,2,Routing,M,Apply,2,SA1,Explain link state routing.,,Explanation
+CN_S3,CN,1,Layers,M,Understand,2,SA1,Differentiate OSI and TCP/IP.,,Explanation
+CN_S4,CN,5,Security,M,Understand,2,SA1,Define firewall.,,Definition
+CN_S5,CN,4,IP,M,Understand,2,SA1,Define subnetting.,,Definition
+CN_L1,CN,3,TCP,H,Analyze,10,LA,Explain TCP congestion control.,,Explanation
+CN_L2,CN,3,TCP,H,Analyze,10,LA,Explain 3-way handshake.,,Explanation
+CN_L3,CN,2,Routing,H,Analyze,10,LA,Explain Dijkstra’s algorithm.,,Explanation
+CN_L4,CN,5,Security,H,Analyze,10,LA,Explain network security threats.,,Explanation
+CN_L5,CN,4,IP,H,Analyze,10,LA,Explain IPv4 vs IPv6 differences.,,Explanation
+SE_M1,SE,1,Models,E,Remember,1,MCQ,Which model is linear?,"[""Waterfall"",""Agile"",""RAD"",""Spiral""]",Waterfall
+SE_M2,SE,1,Models,E,Remember,1,MCQ,Which SDLC model is iterative?,"[""Agile"",""Waterfall"",""RAD"",""V-model""]",Agile
+SE_M3,SE,4,Testing,E,Remember,1,MCQ,Which test checks each module?,"[""Unit"",""Integration"",""System"",""Acceptance""]",Unit
+SE_M4,SE,4,Testing,E,Remember,1,MCQ,Regression testing checks for?,"[""Bugs after changes"",""UI errors"",""Network delays"",""Database load""]","Bugs after changes"
+SE_M5,SE,5,SRS,E,Remember,1,MCQ,SRS stands for what?,"[""Software Requirements Specification"",""System Record Sheet"",""Soft Resource Spec"",""None""]","Software Requirements Specification"
+SE_S1,SE,2,Requirements,M,Understand,2,SA1,Define functional requirement.,,Definition
+SE_S2,SE,2,Requirements,M,Understand,2,SA1,Define non-functional requirement.,,Definition
+SE_S3,SE,3,Design,M,Apply,2,SA1,What is modular design?,,Explanation
+SE_S4,SE,3,Design,M,Apply,2,SA1,What is coupling?,,Definition
+SE_S5,SE,3,Design,M,Apply,2,SA1,What is cohesion?,,Definition
+SE_L1,SE,3,Design,H,Analyze,10,LA,Explain architectural design.,,Explanation
+SE_L2,SE,4,Testing,H,Analyze,10,LA,Explain black box vs white box testing.,,Explanation
+SE_L3,SE,1,Models,H,Analyze,10,LA,Explain RAD model.,,Explanation
+SE_L4,SE,1,Models,H,Analyze,10,LA,Explain spiral model.,,Explanation
+SE_L5,SE,5,SRS,H,Analyze,10,LA,Explain SRS components in detail.,,Explanation
